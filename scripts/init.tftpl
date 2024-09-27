@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo su
+yum update
+yum install nginx -y
+echo "<h1>Welcome to Nginx Server : ${instanceNumber} </h1>"  > /usr/share/nginx/html/index.html
+service nginx start

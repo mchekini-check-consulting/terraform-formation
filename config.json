@@ -1,0 +1,22 @@
+{
+   "buckets" : [
+     "formation-terraform-17860",
+     "formation-terraform-17861"
+   ],
+  "domain" : "test.check-consulting.net",
+  "blocked_countries": [
+    "DZ"
+  ],
+  "ec2Instances" : [
+    {
+      "subnet": "subnet-08349d23bc6aad591",
+      "type": "t3.medium",
+      "ami" : "ami-0ebfd941bbafe70c6"
+    },
+    {
+      "subnet": "subnet-0e212ae5eaa92f046",
+      "type": "t3.medium",
+      "ami" : "ami-0ebfd941bbafe70c6"
+    }
+  ]
+}
